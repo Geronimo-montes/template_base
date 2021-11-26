@@ -55,8 +55,3 @@ _Para correr el programa_
 ```bash
 $ pipenv run dev
 ```
-
-
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.
