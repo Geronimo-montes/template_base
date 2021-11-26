@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "pipenv",
+			"task": "run",
+			"problemMatcher": [],
+			"label": "Project: Runner",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "pipenv",
+			"task": "wheeld-build",
+			"problemMatcher": [],
+			"label": "Project: Builder",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+	]
+}

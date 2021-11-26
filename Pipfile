@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+run = "python setup.py src/main.py"
+wheel-build = "python setup.py bdist_wheel"
